@@ -51,6 +51,7 @@ a {
 }
 
 img {
+  max-width: 100%;
   height: auto;
 }
 
@@ -181,9 +182,9 @@ img {
 }
 
 .home__img img {
-  position: fixed;
-  top: -260%;
-  width: 70rem !important;
+  width: 50rem !important;
+  animation: floaty 1.8s infinite alternate;
+  margin-left: 5rem;
 }
 
 .home__img {
