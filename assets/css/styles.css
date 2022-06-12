@@ -184,7 +184,6 @@ img {
 .home__img img {
   width: 50rem !important;
   animation: floaty 1.8s infinite alternate;
-  margin-left: 5rem;
 }
 
 .home__img {
@@ -232,6 +231,9 @@ img {
     flex-direction: row;
     column-gap: 3.5rem;
   }
+  .home__img img{
+    margin-left:5rem;
+  }
 }
 
 /* For large devices */
@@ -251,6 +253,9 @@ img {
   .home__shadow {
     width: 250px;
     height: 40px;
+  }
+  .home__img img{
+    margin-left:5rem;
   }
 }
 
